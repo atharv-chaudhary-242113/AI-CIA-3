@@ -10,7 +10,7 @@ This project implements an AI system designed to predict and assess cognitive pe
 The system uses an XGBoost model to:
 - **Predict** a continuous Cognitive Score from lifestyle telemetry (regression)
 - **Classify** individuals into Low, Medium, or High cognitive risk levels (classification)
-- **Explain** which factors drive each prediction using SHAP (SHapley Additive exPlanations)
+- **Explain** which factors drive each prediction using SHAP (Shapley Additive explanations)
 
 This project aligns with **SDG 3** (Good Health & Well-being) by providing a data-driven framework for preventing cognitive burnout, and **SDG 9** (Industry, Innovation & Infrastructure) by demonstrating how AI can improve human-machine interaction safety.
 
