@@ -1,0 +1,27 @@
+# ============================================================
+# Meta-Cognitive AI  ·  v1.1
+# Python >= 3.11
+# ============================================================
+
+# --- Data ---
+polars          # Fast data loading and manipulation
+pandas           # Required bridge for scikit-learn pipelines
+numpy           # Numerical operations
+pyarrow         # Parquet read/write (used by Polars)
+
+# --- Machine Learning ---
+scikit-learn     # Preprocessing: StandardScaler, OneHotEncoder, KFold
+xgboost          # Regression models
+
+# --- Hyperparameter Optimization ---
+optuna           # Bayesian HPO (minimize MSE)
+
+# --- Explainability ---
+shap            # Feature importance (TreeExplainer)
+
+# --- Visualization ---
+matplotlib      # Plots and graphs
+seaborn         # Correlation heatmaps and distribution plots
+
+# --- Utilities ---
+joblib           # Save/load models and preprocessor
